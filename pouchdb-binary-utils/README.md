@@ -10,7 +10,9 @@ npm install --save-exact pouchdb-binary-utils
 ```
 The popular pouchdb-react-native@7.0.0-beta-1 (shipped with default adapter: asyncstorage) has this error:
 "can't find variable buffer",
-when you try to run it.
+when you try to run it. To install PouchDb for React Native, do
+
+npm install pouchdb-react-native@next --save
 
 This commit solved this problem by simply replacing the old buffer plugin with the newer buffer plugin: pouchdb-binary-utils (installed by default in your React Native)
 
@@ -23,8 +25,6 @@ pouchdb-binary-utils/lib/node_modules/
 to ... safe-buffer
 
 NOTE: pouchdb-binary-utils plugin will be installed with pouchdb-react-native. After installation, replace the directory with this commit, or simply follow above steps to manually effect change.
-
-visit Stockulus repository: https://github.com/stockulus/pouchdb-react-native
 
 That is all. Thank you.
 

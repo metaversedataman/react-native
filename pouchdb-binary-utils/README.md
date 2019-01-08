@@ -24,6 +24,8 @@ to ... safe-buffer
 
 NOTE: pouchdb-binary-utils plugin will be installed with pouchdb-react-native. After installation, replace the directory with this commit, or simply follow above steps to manually effect change.
 
+visit Stockulus repository: https://github.com/stockulus/pouchdb-react-native
+
 That is all. Thank you.
 
 For full API documentation and guides on PouchDB, see [PouchDB.com](http://pouchdb.com/). For details on PouchDB sub-packages, see the [Custom Builds documentation](http://pouchdb.com/custom.html).
